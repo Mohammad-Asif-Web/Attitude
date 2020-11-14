@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+
+}
+/*======HEADER SECTION=======*/
+.container{
+	width: 100%;
+	height: 130px;
+	background: #2a2925;
+}
+.container .row{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+.container .row .left{
+	margin-top: 20px;
+	margin-left: 66px;
+	color: #fff;
+}
+.container .row .right{
+	margin-right: 60px;
+}
+.right input,
+.right button{
+	border-radius: none;
+	padding: 5px;
+}
+.right button{
+	background: #95a60a;
+	color: #fff;
+}
+.container .nav{
+	display: flex;
+	justify-content: flex-end;
+}
+.container .nav ul{
+	width: 60%;
+	display: flex;
+	justify-content: flex-end;
+	justify-content: space-around;
+}
+.nav .navbar li{
+	margin-left: 5px;
+}
+.nav .navbar li a{
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.nav ul li a:hover{
+	color: #95a60a;
+	transition: 0.5s;
+	letter-spacing: 2px;
+}
+
+/*=======MAIN SECTION===========*/
+.main{
+	width: 100%;
+	height: 450px;
+	background: #95a60a;
+}
+
+.main .main-sub{
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+.main-sub .sub1{
+	width: 40%;
+	padding: 20px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 56px;
+}
+.main-sub .sub1 h2{
+	font-size: 35px;
+}
+.main-sub .sub1 p{
+	font-size: 15px;
+	margin-top: 10px;
+	text-align: justify;
+}
+.main-sub .sub2{
+	width: 50%;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	right: 0;
+}
+.main-sub{
+	display: flex;
+	justify-content: space-between;
+}
+.main-sub .sub3{
+	width: 40%;
+	padding: 20px;
+	position: absolute;
+	left: 60px;
+	margin-top: 160px;
+}
+.main-sub .sub4{
+	width: 40%;
+	height: 200px;
+	padding: 20px;
+	background: #333333;
+	display: flex;
+	position: absolute;
+	right: 87px;
+	margin-top: 180px;
+}
+.main-sub .sub4 .col1{
+	width: 60%;
+	position: absolute;
+}
+.main-sub .sub4 .col1 h6{
+	font-size: 30px;
+	color: #fff;
+	font-weight: 200;
+}
+.main-sub .sub4 .col1 p{
+	color: #fff;
+	margin-top: 10px;
+	text-align: justify;
+}
+.main-sub .sub4 .col1 span{
+	color: #95a60a;
+	display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+	text-transform: capitalize;
+}
+.main-sub .sub4 .col2{
+	width: 40%;
+}
+.main-sub .sub4 .col2 img{
+	position: absolute;
+	right: 25px;
+}
+
+/*========SERVICES SECTION======*/
+.services{
+	width: 100%;
+	height: 460px;
+	background: #d9cd95;
+}
+.all{
+	display: flex;
+	justify-content: space-around;
+}
+.all .all1{
+	width: 25%;
+	height: 400px;
+	background: #d5dcdc9c;
+	margin-top: 30px;
+	position: relative;
+}
+.all .all1 .same{
+	position: absolute;
+	padding: 30px;
+	border: 2px solid #fff;
+}
+.all .all1 .same h3{
+	font-size: 30px;
+	font-weight: 200;
+	text-transform: capitalize;
+}
+.all .all1 .same hr{
+	border: 1px solid #95a60a;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.all .all1 .same img{
+	margin-top: 20px;
+}
+
+/*=====CONTACT SECTION=====*/
+.contact{
+	width: 100%;
+	height: 160px ;
+	background: #243533fc;
+}
+.contact .sub-contact{
+	display: flex;
+}
+.contact .sub-contact .sub1{
+	width: 30%;
+}
+.contact .sub-contact .sub2{
+	width: 70%;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.contact .sub-contact h4{
+	font-weight: 200;
+	font-size: 20px;
+	color: #999999;
+	margin-bottom: 10px;
+}
+.sub-contact .sub1{
+	margin-top: 20px;
+	margin-left: 70px;
+}
+.sub-contact .sub1 p{
+	color: #999999;
+	
+	margin-bottom: 10px;
+}
+.sub-contact .sub1 .clear{
+	margin-bottom: 10px;
+}
+.sub-contact .sub1 span{
+	color: #999999;
+	font-size: 12px;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
+.sub-contact .sub2 .bar{
+	width: 20%;
+	display: block;
+}
+.sub-contact .sub2 .bar p{
+	color: #95a60a;
+}
+
+/*=====COPYRIGHT SECTION======*/
+.copyright{
+	width: 100%;
+	height: 40px;
+	background: #1f1f1f;
+}
+.copyright .copy{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	font-weight: 100;
+	font-size: 12px;
+	color: #fff;
+}
+
+.copy1{
+	margin-left: 70px;
+}
+.copy2{
+	margin-right: 70px;
+}
+
+
+
+
+
+
+
+
+
